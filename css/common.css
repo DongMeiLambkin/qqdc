@@ -1,0 +1,145 @@
+body{
+    font-size: 14px;
+}
+.w{
+    width: 1200px;
+    margin:auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+input,
+button{
+    border:none;
+}
+.top{
+    height:30px ;
+    line-height: 30px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.top-left a{
+    color:#c81623;
+}
+li{
+    float: left;
+}
+.top-right ul li:nth-child(2n){
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin:9px 12px 0 12px;
+}
+@font-face {
+    font-family:'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+  }
+.iconfont{
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+    height: 150px;
+    border-bottom: 2px solid #c81623;
+}
+header .w{
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top:25px;
+    left: 0;
+    width: 175px;
+    height: 56px;
+   
+    font-size: 0;
+
+}
+.logo a {
+    display: block;
+    width:175px;
+    height: 56px;
+    background: url(../images/logo.png) no-repeat;
+}
+.shopcar{
+    position: absolute;
+    top:30px;
+    right: 60px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border:1px solid #ccc;
+    background-color: #f7f7f7;
+}
+.shopcar i:first-child{
+    color: #c81623;
+}
+.search{
+    position: absolute;
+    top:30px;
+    left: 350px;
+}
+.search input{
+    float: left;
+    width:445px ;
+    height:31px ;
+    border:2px solid #b1191a;  
+    border-right: none; 
+    padding-left: 10px;
+}
+.search button{
+    float: left;
+    width: 82px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #b1191a;
+    color: #fff;
+}
+.youhui {
+    position: absolute;
+    top:67px;
+    left:350px;
+    margin-top:10px;
+}
+.youhui a{
+    margin:0 10px;
+}
+.youhui a:nth-child(1){
+    color:#c81623;
+}
+.product{
+    position: absolute;
+    top:102px;
+    left:0;
+    width:210px ;
+    height: 50px;
+    line-height: 50px;;
+    text-align: center;
+    background-color:#b1191a ;
+    color: #fff;
+    font-size: 16px;
+}
+.asider{
+    position: absolute;
+    top:120px;
+    left:221px;
+}
+.asider li{
+    margin:0 25px;
+    font-size: 16px;
+}
+.asider li:nth-child(1){
+    color:#c81623;
